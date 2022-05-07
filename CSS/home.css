@@ -1,0 +1,76 @@
+body{
+    background-image: url(../img/BG.jpg);
+}
+
+header{
+    color: rgb(14, 22, 137);
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    border: 5px solid rgb(14, 22, 137);
+    font-family: monospace;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5em ;
+}
+
+a{
+    color: rgb(14, 22, 137);
+    font-weight: bold;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+div:nth-child(3){
+    margin-left: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+article {
+    display: grid;
+    margin-top: 10px;
+}
+
+section {
+    font-size: 1em;
+    padding: 10px;
+}    
+
+h2{
+    color: rgb(14, 22, 137);
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+p{
+    color: rgb(14, 22, 137);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+
+
